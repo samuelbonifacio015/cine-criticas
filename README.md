@@ -107,14 +107,10 @@ Modal para ver detalles completos de una reseña:
 - [ ] Sistema de recomendaciones
 - [ ] Exportación de reseñas
 
-## 📝 Licencia
-
-Este proyecto está bajo la Licencia MIT. Ver el archivo `LICENSE` para más detalles.
-
 ## 🤝 Contribuciones
 
 Las contribuciones son bienvenidas. Por favor, abre un issue para discutir los cambios propuestos.
 
 ## 📧 Contacto
 
-Para cualquier consulta o sugerencia, por favor contacta a [TU_EMAIL].
+Para cualquier consulta o sugerencia, por favor contacta a [samuelbonifacio015@gmail.com].
