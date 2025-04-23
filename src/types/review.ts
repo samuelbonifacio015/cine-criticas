@@ -1,4 +1,3 @@
-
 export interface Review {
   id: string;
   title: string;
@@ -9,8 +8,21 @@ export interface Review {
   review: string;
   imageUrl?: string;
   dateWatched?: Date;
-  createdAt: Date;
   tags?: string[];
+  tmdbId?: number;
+  likes?: number;
+  comments?: Comment[];
+  createdAt: Date;
+  updatedAt: Date;
+}
+
+export interface Comment {
+  id: string;
+  userId: string;
+  userName: string;
+  userAvatar?: string;
+  content: string;
+  createdAt: Date;
 }
 
 export interface ReviewFormData {
@@ -23,4 +35,5 @@ export interface ReviewFormData {
   imageUrl?: string;
   dateWatched?: Date;
   tags?: string[];
+  tmdbId?: number;
 }
